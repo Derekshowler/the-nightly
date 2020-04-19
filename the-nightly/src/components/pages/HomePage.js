@@ -1,11 +1,14 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import navbar from "../pages/NavBar";
 
 
 const HomePage = () => (
-    <div>
-        <h1>Welcome to The-Nightly</h1>
-        <Link to = "/login">Login</Link>
+
+    <div className="HomePage">
+
+        
+    
     </div>
 );
 
