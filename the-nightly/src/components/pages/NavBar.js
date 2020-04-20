@@ -13,7 +13,6 @@ export default function NavbarStyledComponents() {
             <NavTitle to="/">The Nightly</NavTitle>
             <NavItems>
                 <NavItem to="/pricing">Explore The Community</NavItem>
-                <NavItem>Docs</NavItem>
                 <NavItemButton to = "/login">Login</NavItemButton>
                 <NavItemButton primary>Sign Up!</NavItemButton>
             </NavItems>

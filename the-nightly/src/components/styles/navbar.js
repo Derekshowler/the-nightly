@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
 
+//main navigation bar
 export const Nav = styled.nav`
     display: flex;
     padding: 20px;
@@ -18,7 +19,7 @@ export const NavItems = styled.ul`
 
 export const NavTitle = styled(Link)`
     flex-grow: 1;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     color: #333;
     text-decoration: none;
