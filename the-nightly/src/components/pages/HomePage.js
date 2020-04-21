@@ -1,15 +1,20 @@
-import React from "react";
+import React from 'react';
 import {Link} from "react-router-dom";
-import navbar from "../pages/NavBar";
+import { 
+    HomePageStyle,
+    HomePageTitle
+} from '../styles/homePageStyle';
 
 
-const HomePage = () => (
+export default function HomePage() {
+    return (
+        <HomePageStyle>
+            <div>
+                <HomePageTitle>
+                    Homepage: Content
+                </HomePageTitle>
+            </div>
+        </HomePageStyle>
+    );
+}
 
-    <div className="HomePage">
-
-        
-    
-    </div>
-);
-
-export default HomePage;
