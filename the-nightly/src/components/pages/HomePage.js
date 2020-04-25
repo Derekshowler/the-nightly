@@ -5,8 +5,9 @@ import {
     HomePageFeaturedTitle,
     HomePageFeaturedContainer,
     HomePageFeaturedContent,
-    HomePageFeaturedList
+    HomePageFeaturedList,
 } from '../styles/homePageStyle';
+import {fullMoon} from "../images/full-moon-test.jpg";
 
 
 export default function HomePage() {
@@ -31,7 +32,7 @@ export default function HomePage() {
                         </HomePageFeaturedTitle>
 
                         <HomePageFeaturedContent>
-                            
+                        
                         </HomePageFeaturedContent>
 
                 </HomePageFeaturedContainer>

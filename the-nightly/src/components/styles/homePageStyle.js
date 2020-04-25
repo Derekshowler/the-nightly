@@ -39,3 +39,8 @@ export const HomePageFeaturedContent = styled.span`
     margin-top: 30px;
     margin-bottom: 60px;
 `;
+
+export const HomePageFeaturedContentImages = styled.img`
+    height: 30%;
+    width: 30%;
+`;
